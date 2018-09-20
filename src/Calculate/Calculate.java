@@ -11,10 +11,10 @@ public class Calculate {
 		int x, y;
 		String operator;
 		while (true) {
-			System.out.println("¿¬»êÇÒ µÎ °ªÀ» ÀÔ·ÂÇÏ½Ã¿À.");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½Ï½Ã¿ï¿½.");
 			x = input.nextInt();
 			y = input.nextInt();
-			System.out.println("¿¬»êÇÒ ¿¬»êÀÚ¸¦ ÀÔ·ÂÇÏ½Ã¿À. (+, -, *, /)");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ú¸ï¿½ ï¿½Ô·ï¿½ï¿½Ï½Ã¿ï¿½. (+, -, *, /)");
 			operator = input.next();
 			if (operator.equals("+")) {
 				System.out.println(x + " + " + y + " = " + add(x, y));
@@ -25,14 +25,14 @@ public class Calculate {
 			} else if (operator.equals("/")) {
 				System.out.println(x + " / " + y + " = " + div(x, y));
 			} else {
-				System.out.println("ÇÁ·Î±×·¥À» Á¾·áÇÕ´Ï´Ù.");
+				System.out.println("ï¿½ï¿½ï¿½Î±×·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½.");
 				break;
 			}
 		}
 	}
 
 	public static int add(int x, int y) {
-		return x+y;
+		return x + y;
 	}
 
 	public static int sub(int x, int y) {
@@ -46,7 +46,7 @@ public class Calculate {
 	}
 
 	public static double div(int x, int y) {
-		// ½Ç¼ö·Î ¹ÝÈ¯ÀÌ µÇµµ·Ï ±¸Çö
+		// ï¿½Ç¼ï¿½ï¿½ï¿½ ï¿½ï¿½È¯ï¿½ï¿½ ï¿½Çµï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 
 		return 0;
 	}
