@@ -32,7 +32,7 @@ public class Calculate {
 	}
 
 	public static int add(int x, int y) {
-		return x + y + 0;
+		return x + y;
 	}
 
 	public static int sub(int x, int y) {
