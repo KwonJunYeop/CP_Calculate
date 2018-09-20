@@ -48,6 +48,6 @@ public class Calculate {
 	public static double div(int x, int y) {
 		// �Ǽ��� ��ȯ�� �ǵ��� ����
 
-		return 0;
+		return x/y;
 	}
 }
